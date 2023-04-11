@@ -1,10 +1,12 @@
-import { RecipeList } from './RecipeList';
-import recipes from '../recipes.json';
+import { EventBoard } from './EventBoard/EventBoard';
+import { PageTitle } from './PageTitle/PageTitle';
+import upcomingEvents from '../upcomingEvents.json';
 
 export const App = () => {
   return (
-    <div>
-      <RecipeList items={recipes} />
-    </div>
+    <>
+      <PageTitle text="24th Core Worlds Coalition Conference" />
+      <EventBoard events={upcomingEvents} />
+    </>
   );
 };
