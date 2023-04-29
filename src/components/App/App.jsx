@@ -1,13 +1,9 @@
-import { EventBoard } from '../EventBoard/EventBoard';
-import { PageTitle } from '../PageTitle/PageTitle';
-import upcomingEvents from '../../upcomingEvents.json';
 import { Container } from './App.styled';
+import 'react-toastify/dist/ReactToastify.css';
+import React from 'react';
 
-export const App = () => {
-  return (
-    <Container>
-      <PageTitle text="24th Core Worlds Coalition Conference" />
-      <EventBoard events={upcomingEvents} />
-    </Container>
-  );
-};
+export class App extends React.Component {
+  render() {
+    return <Container></Container>;
+  }
+}
