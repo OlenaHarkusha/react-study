@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { async } from 'q';
 
 axios.defaults.baseURL = 'https://644d2c63cfdddac9709ed1e6.mockapi.io';
 
