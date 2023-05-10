@@ -1,3 +1,4 @@
+import { Clock } from './Clock';
 import { Couner } from './Counter';
 import { SignupForm } from './SignUpForm';
 
@@ -15,6 +16,7 @@ export const App = () => {
     <div>
       <SignupForm />
       <Couner />
+      <Clock />
     </div>
   );
 };
