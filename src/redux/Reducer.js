@@ -1,8 +1,7 @@
-import { counterReducer } from './Counter/CounterReduser';
+import { counterReducer } from './Counter/CounterReducer';
 import { todoReducer } from './Todo/TodoReducer';
-const { combineReducers } = require('@reduxjs/toolkit');
 
-export const reducer = combineReducers({
+export const reducer = {
   counter: counterReducer,
   todo: todoReducer,
-});
+};

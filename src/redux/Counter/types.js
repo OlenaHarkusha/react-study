@@ -1,3 +1,5 @@
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
-export const SETSTEP = 'SETSTEP';
+//Типи не потрібні
+
+// export const INCREMENT = 'INCREMENT';
+// export const DECREMENT = 'DECREMENT';
+// export const SETSTEP = 'SETSTEP';
